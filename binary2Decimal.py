@@ -8,7 +8,7 @@
 
 # userInput = input("请输入一个二进制数：\n")
 #
-# def binary2decimal():
+# def bin2dec():
 #     sum = 0
 #     s = list(userInput)
 #     s.reverse()
@@ -17,34 +17,70 @@
 #     print("此数对应的十进制数是：", sum)
 #
 #
-# def binary2decimal2():
+# def bin2dec2():
 #     sum = 0
-#     binaryLen = len(userInput)
-#     for i in range(binaryLen):
-#         # sum += int(userInput[binaryLen - 1 - i]) * pow(2, i)
-#         sum += int(userInput[i]) * pow(2, binaryLen - 1 - i)
+#     binLen = len(userInput)
+#     for i in range(binLen):
+#         # sum += int(userInput[binLen - 1 - i]) * pow(2, i)
+#         sum += int(userInput[i]) * pow(2, binLen - 1 - i)
 #     print("此数对应的十进制数是：", sum)
 #
 # print('==========')
-# binary2decimal()
+# bin2dec()
 # print('==========')
-# binary2decimal2()
+# bin2dec2()
 # print('=====验证：=====')
 # print(int(userInput, 2))
 #
+# print(1*2**3)
+###########################################
+# dec += int(bin[i]) * pow(2, power)
+
+# # 第一步：输入(input)--告诉程序你的二进制数
+# bin = input("请输入一个二进制数：")
+#
+# # 第二步：处理(process) --将二进制数转化为十进制数
+# dec = 0
+# power = 0
+# binLen = len(bin)
+#
+# for i in range(0, binLen):
+#     power = binLen - 1 - i
+#     dec = dec + int(bin[i]) * 2 ** power
+#
+# # 第三步：输出(output) –将十进制数的结果打印到屏幕上
+# print("对应的十进制数是：", dec)
+###########################################
 
 # 第一步：输入(input)--告诉程序你的二进制数
-binary = input("请输入一个二进制数：")
+bin = input("请输入一个二进制数：")
 
 # 第二步：处理(process) --将二进制数转化为十进制数
-decimal = 0
-power = 0
-binaryLen = len(binary)
-
-for i in range(0, binaryLen):
-    power = binaryLen - 1 - i
-    decimal += int(binary[i]) * pow(2, power)
+dec = 0
+binLen = len(bin)
+digit = binLen
+for i in range(binLen):
+    dec = dec + int(bin[i]) * 2 ** (digit-1)
+    digit = digit - 1
 
 # 第三步：输出(output) –将十进制数的结果打印到屏幕上
-print("对应的十进制数是：", decimal)
+print("对应的十进制数是：", dec)
 
+
+##########################################
+
+# # 第一步：输入(input)--告诉程序你的二进制数
+# # bin是binary的缩写，代表二进制
+# bin = input("请输入一个二进制数：")
+#
+# # 第二步：处理(process) --将二进制数转化为十进制数
+# # dec是decimal的缩写，代表十进制
+# dec = 0
+# # digit代表数位
+# digit = len(bin)
+# for s in bin:
+#     dec = dec + int(s) * 2 ** (digit-1)
+#     digit = digit - 1
+#
+# # 第三步：输出(output) –将十进制数的结果打印到屏幕上
+# print("对应的十进制数是：", dec)
