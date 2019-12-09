@@ -1,21 +1,36 @@
+# 导入turtle模块，创建小画家Bob
 import turtle
 Bob = turtle.Turtle()
-screen = turtle.Screen()
-smile = screen.register_shape('smile.gif')
-Bob.shape('smile.gif')
-Bob.penup()
-# for i in range(50):
-Bob.stamp()
+# “arrow”, “turtle”, “circle”, “square”, “triangle”, “classic”.
+Bob.shape('turtle')
+
+# 召唤魔法画布，让Bob变身
+# screen = turtle.Screen()
+# screen.register_shape('house30.gif')
+# Bob.shape('house30.gif')
+
+# 开始画图
 Bob.forward(100)
+Bob.left(90)
 Bob.stamp()
+
 Bob.forward(100)
+Bob.left(90)
 Bob.stamp()
-Bob.forward(10)
+
+Bob.forward(100)
+Bob.left(90)
 Bob.stamp()
-Bob.forward(10)
+
+Bob.forward(100)
+Bob.left(90)
 Bob.stamp()
-Bob.forward(10)
-Bob.stamp()
-Bob.forward(10)
-# Bob.forward(200)
-# Bob.right(144)
+
+
+
+
+
+
+
+turtle.done()
+
