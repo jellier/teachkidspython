@@ -6,8 +6,8 @@ Bob.shape('turtle')
 
 # 召唤魔法画布，让Bob变身
 # screen = turtle.Screen()
-# screen.register_shape('house30.gif')
-# Bob.shape('house30.gif')
+# screen.register_shape('pic/house30.gif')
+# Bob.shape('pic/house30.gif')
 
 # 开始画图
 Bob.forward(100)
