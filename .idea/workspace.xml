@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39034326-f151-4b01-bfd9-15eed072a57b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/house100.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/house30.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/teachkidspython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/teachkidspython.iml" afterDir="false" />
+    <list default="true" id="39034326-f151-4b01-bfd9-15eed072a57b" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary2Decimal.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary2Decimal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/turtleStamp.py" beforeDir="false" afterPath="$PROJECT_DIR$/turtleStamp.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,8 +88,18 @@
       <workItem from="1575283189600" duration="58000" />
       <workItem from="1575289568266" duration="14000" />
       <workItem from="1575289603531" duration="2076000" />
-      <workItem from="1575338781304" duration="20885000" />
+      <workItem from="1575338781304" duration="20958000" />
+      <workItem from="1576043450398" duration="2592000" />
+      <workItem from="1577278966491" duration="243000" />
     </task>
+    <task id="LOCAL-00001" summary="add turtleStamp">
+      <created>1575863267807</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575863267807</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +118,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add turtleStamp" />
+    <option name="LAST_COMMIT_MESSAGE" value="add turtleStamp" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/teachkidspython$turtleStamp.coverage" NAME="turtleStamp Coverage Results" MODIFIED="1575712434645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/teachkidspython$turtleStamp.coverage" NAME="turtleStamp Coverage Results" MODIFIED="1576639313262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

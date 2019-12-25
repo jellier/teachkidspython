@@ -57,11 +57,11 @@ bin = input("请输入一个二进制数：")
 
 # 第二步：处理(process) --将二进制数转化为十进制数
 dec = 0
-binLen = len(bin)
-digit = binLen
-for i in range(binLen):
-    dec = dec + int(bin[i]) * 2 ** (digit-1)
-    digit = digit - 1
+length = len(bin)
+n = length
+for i in range(length):
+    dec = dec + int(bin[i]) * 2 ** (n - 1)
+    n = n - 1
 
 # 第三步：输出(output) –将十进制数的结果打印到屏幕上
 print("对应的十进制数是：", dec)
