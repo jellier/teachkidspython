@@ -17,6 +17,7 @@ t.left(90)
 
 turtle.resetscreen()
 
+
 # 画三角形
 # 相对方式
 t.left(120)
