@@ -1,19 +1,26 @@
 # 使用turtle库画一棵圣诞树
-
 # 导入turtle模块
 import turtle
+
+isChris =input('圣诞节到了吗？')
+if isChris == 'y':
+    # 调用屏幕
+    screen = turtle.Screen()
+    screen.setup(600, 400)
+    screen.bgpic('pic/chrismasbg.gif')
+
 # 调用画笔
 t= turtle.Turtle()
-
-# 画树冠
-t.penup()
-t.goto(0,120)
-t.pendown()
+t.left(90)
 t.color("DarkGreen")
+# 画第一个三角形
+t.penup()
+t.goto(0,100)
+t.pendown()
 t.begin_fill()
 t.goto(-60,-100)
 t.goto(60,-100)
-t.goto(0,120)
+t.goto(0,100)
 t.end_fill()
 
 # 画树干
@@ -26,7 +33,8 @@ t.goto(0,-170)
 
 # 画五角星
 t.penup()
-t.goto(5,120)
+t.goto(0,100)
+t.left(126)
 t.pendown()
 
 t.pensize(3)
