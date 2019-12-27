@@ -15,6 +15,7 @@ t.left(90)
 t.fd(100)
 t.left(90)
 
+
 turtle.resetscreen()
 
 # 画三角形
