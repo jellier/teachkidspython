@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39034326-f151-4b01-bfd9-15eed072a57b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/turtle_chrismas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/teachkidspython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/teachkidspython.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python入门课0.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/Python入门课0.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtle_draw.py" beforeDir="false" afterPath="$PROJECT_DIR$/turtle_draw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtle_house.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/turtle_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/turtle_tree.py" afterDir="false" />
-    </list>
+    <list default="true" id="39034326-f151-4b01-bfd9-15eed072a57b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,15 +140,16 @@
       <workItem from="1575338781304" duration="20958000" />
       <workItem from="1576043450398" duration="2592000" />
       <workItem from="1577278966491" duration="243000" />
-      <workItem from="1577279413973" duration="7494000" />
+      <workItem from="1577279413973" duration="7828000" />
     </task>
-    <task id="LOCAL-00001" summary="add turtleStamp">
-      <created>1575863267807</created>
+    <task id="LOCAL-00001" summary="update">
+      <created>1577346746415</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1575863267807</updated>
+      <updated>1577346746415</updated>
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +184,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add turtleStamp" />
-    <option name="LAST_COMMIT_MESSAGE" value="add turtleStamp" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/teachkidspython$turtle_draw.coverage" NAME="turtle_draw Coverage Results" MODIFIED="1577338748232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
