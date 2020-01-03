@@ -1,45 +1,24 @@
-# 使用turtle库画一棵圣诞树
+# 使用turtle库画一个金灿灿的五角星
 
 # 导入turtle模块
 import turtle
 # 调用画笔
 t= turtle.Turtle()
-
-# 画树冠
-t.penup()
-t.goto(0,120)
-t.pendown()
-t.color("DarkGreen")
-t.begin_fill()
-t.goto(-60,-100)
-t.goto(60,-100)
-t.goto(0,120)
-t.end_fill()
-
-# 画树干
-t.penup()
-t.goto(0,-100)
-t.pendown()
-t.pensize(30)
-t.color('SaddleBrown')
-t.goto(0,-170)
-
-# 画五角星
-t.penup()
-t.goto(5,120)
-t.pendown()
-
+# 设置画笔粗细
 t.pensize(3)
-t.color('Gold')
+# 设置画笔颜色
+t.color('Yellow', 'Gold')
+# 填充五角星开始
 t.begin_fill()
+# 循环
 for i in range(5):
     t.fd(20)
     t.right(144)
     t.fd(20)
     t.left(72)
-
+# 填充五角星结束
 t.end_fill()
+# 画笔隐藏
 t.hideturtle()
-
 
 turtle.done()
