@@ -11,8 +11,6 @@ if isChris == 'y':
 
 # 调用画笔
 t= turtle.Turtle()
-t.left(90)
-t.color("DarkGreen")
 # 画树冠
 t.penup()
 t.goto(0,120)
