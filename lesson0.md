@@ -27,23 +27,45 @@ Python拥有强大的功能，被广泛用于数据处理、人工智能、网�
 
 
 ## 课前准备工作—安装Python
-要想在计算机上使用Python，我们需要在计算机上安装Python
+要想在计算机上使用Python，我们需要在计算机上安装Python   
 
 ### 下载Python
-Python是免费的，目前最新的稳定版本是Python3.8.1，使用浏览器直接访问他的官网下载页面
-
-<https://www.python.org/downloads/release/python-381/>
-拉到页面底部，选择你电脑对应的版本
-![选择对应版本](pic/p-0-2.png)
+Python是免费的，目前最新的稳定版本是Python3.8.1，使用浏览器直接访问他的官网下载页面    
+<https://www.python.org/downloads/release/python-381/>    
+拉到页面底部，选择你电脑对应的版本    
+![选择对应版本](pic/p-0-2.png)   
 
 ### 安装Python
-跟随提示一步步进行，安装程序将使用默认设置把Python安装到你的电脑上。页面出现Successful字样，说明安装成功    
+跟随提示一步步进行，安装程序将使用默认设置把Python安装到你的电脑上。页面出现Successful字样，说明安装成功     
 安装完成后，要去哪里找到Python呢？   
-如果你的电脑是苹果系统，就要先找到这个小图标，进入到启动面板里。  
+如果你的电脑是苹果系统，就要先找到这个小图标，进入到启动面板里。    
 <div align="center">
 <img src="pic/p-0-3.png" width="132" height="72" />
 </div>  
 然后找到上面画着两条蟒蛇的 IDLE 图标， 点击这个图标就可以了    
 ![找到IDLE图标](pic/p-0-4.png) 
 
+如果你是windows系统，要到“开始”菜单下，点击“所有程序”，找到Python3.8 点开，然后点击IDLE就可以了
+![windows下的路径](pic/p-0-5.png) 
 
+### 使用Python编辑器
+IDLE是Python的集成开发环境，它包括了Python Shell 和 Python Editor两部分。   
+我们点击IDLE打开的就是Python Shell。它是一个窗口，允许用户输入命令或者代码行   
+“>>>”叫做提示符，它表示Python已经准备就绪，等待输入Python指令了。   
+<div align="center">
+<img src="pic/p-0-6.png" width="574" height="118" />
+</div> 
+
+通常，我们想要编写的程序至少也要有几行的代码，会需要代码高亮、缩进、关键字提示、撤销、恢复等功能，因此Python提供了一个编辑器，用来方便编写较长的程序。在IDLE中，打开”File”菜单，选择“New File”会弹出一个空白屏幕，这就是Python编辑器（Python Editor）了   
+![打开编辑器](pic/p-0-7.png) 
+
+我们后面的课程中，都会用到这个编辑器。   
+
+
+## 小结
+
+现在你应该：   
+* 有了完全能使用的Python编辑环境    
+* 知道从哪里找到Python Shell    
+* 知道如何从Python Shell中调出Python编辑器   
+* 准备好开始学习Python   
