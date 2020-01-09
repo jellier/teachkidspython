@@ -40,10 +40,10 @@ Python是免费的，目前最新的稳定版本是Python3.8.1，使用浏览器
 跟随提示一步步进行，安装程序将使用默认设置把Python安装到你的电脑上。页面出现Successful字样，说明安装成功    
 安装完成后，要去哪里找到Python呢？   
 如果你的电脑是苹果系统，就要先找到这个小图标，进入到启动面板里。  
-![找到启动台图标](pic/p-0-3.png)    
+<div align="center">
+<img src="pic/p-0-3.png" width="132" height="72" />
+</div>  
 然后找到上面画着两条蟒蛇的 IDLE 图标， 点击这个图标就可以了    
 ![找到IDLE图标](pic/p-0-4.png) 
 
-<div align="center">
-<img src="pic/p-0-3.png" height="36" width="66" >
- </div>
+
