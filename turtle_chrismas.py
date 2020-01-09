@@ -2,21 +2,22 @@
 # 导入turtle模块
 import turtle
 
+# 询问用户圣诞节到了吗？
 isChris = input('圣诞节到了吗？')
-if isChris == 'y':
-    # 调用屏幕
+# 根据输入结果判断是否显示圣诞背景图
+if isChris == 'yes':
+    # 设置屏幕背景
     screen = turtle.Screen()
     screen.setup(600, 400)
     screen.bgpic('pic/chrismasbg.gif')
 
 # 调用画笔
 t = turtle.Turtle()
-
 # 画树冠
 t.penup()
 t.goto(0, 120)
 t.pendown()
-t.color("DarkGreen")
+t.fillcolor("DarkGreen")
 t.begin_fill()
 t.goto(-60, -100)
 t.goto(60, -100)
