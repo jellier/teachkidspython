@@ -49,8 +49,8 @@ Name在这里叫做“变量”，变量是一个保存数据的地方，当我�
 ![correct & not](pic/p-1-11.png)  
 
 点击运行，保存后，Shell窗口又被激活，在光标后面输入你的名字     
-![input name](pic/p-1-8.9png) 
-![print name](pic/p-1-.png) 
+![input name](pic/p-1-8.png)    
+![print name](pic/p-1-9.png) 
 
 ## 小结
 
