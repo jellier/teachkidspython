@@ -17,10 +17,14 @@ print是Python语言的输出函数，在编辑器里函数用紫色显示，hel
 接着，点击编辑器窗口上方的菜单Run—>Run Module   
 ![Run Module](pic/p-1-2.png)
 
-这时会弹出一个对话框，提示你要先保存程序代码   
-![save your code 1](pic/p-1-3.png)
-  
-![save your code 2](pic/p-1-4.png)    
+这时会弹出一个对话框，提示你要先保存程序代码  
+
+<div align="center">
+<img src="pic/p-1-3.png" width="478" height="184" />
+<br/>
+<img src="pic/p-1-4.png" width="290" height="162" />
+</div> 
+    
 点击“确定”或者“OK”按钮，在弹出的对话框中输入文件名hello.py，选个保存的目录（这里我选的是桌面，你可以请爸爸妈妈帮忙建个你专属的文件夹）。保存后Python Shell窗口就会被激活，你的第一行代码将被执行，执行结果显示在<<< 提示符后面   
 ![show your code](pic/p-1-5.png)    
 
@@ -40,7 +44,7 @@ name = input("请问你叫什么名字？")
 print('hello,',name)
 ```
 <div align="center">
-<img src="pic/p-0-10.png" width="400" height="100" />
+<img src="pic/p-1-10.png" width="400" height="100" />
 </div>
 
 这里红色的那一行叫做“注释”，注释以井号（#）开头，它是程序的提示，是告诉看代码的人这段代码的作用，不是给计算机看的，所以计算机运行时会忽略它。    
