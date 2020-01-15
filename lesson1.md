@@ -10,13 +10,16 @@ Hi,大家好，我是葫芦妈妈。今天我们就要正式开始学习Python�
 
 在Python的中向屏幕输出这句话要用print(‘hello,world')，print在英文中是打印的意思，也就是告诉计算机请打印出hello,world这几个字。我们一起来试一下，注意这里输入的时候一定要将输入法切换到英文输入状态哦   
 
-![print('hello world')](pic/p-1-1.png)
+<div align="center">
+<img src="pic/p-1-1.png" width="325" height="60" />
+</div> 
 
 print是Python语言的输出函数，在编辑器里函数用紫色显示，hello world是一串字符串，在编辑器里字符串默认用绿色显示。
 
 接着，点击编辑器窗口上方的菜单Run—>Run Module   
-![Run Module](pic/p-1-2.png)
-
+<div align="center">
+<img src="pic/p-1-2.png" width="210" height="108" />
+</div> 
 这时会弹出一个对话框，提示你要先保存程序代码  
 
 <div align="center">
@@ -26,14 +29,17 @@ print是Python语言的输出函数，在编辑器里函数用紫色显示，hel
 </div> 
     
 点击“确定”或者“OK”按钮，在弹出的对话框中输入文件名hello.py，选个保存的目录（这里我选的是桌面，你可以请爸爸妈妈帮忙建个你专属的文件夹）。保存后Python Shell窗口就会被激活，你的第一行代码将被执行，执行结果显示在<<< 提示符后面   
-![show your code](pic/p-1-5.png)    
-
+<div align="center">
+<img src="pic/p-1-5.png" width="390" height="120" />
+</div> 
 好了，你已经编写完第一个Python程序了。
 
 当程序可以正常运行后，试着修改代码中的一些值，观察代码的变化，可以直观的了解代码的作用，    
 比如我把 hello, wold改成 hello, 葫芦，print(“hello,葫芦”)    
 这里“葫芦”是中文，输入的时候要注意中英文切换，在Python中只有***引号里面的字符串和注释中可以有中文字符***，其他不管是关键字还是字符（比如括号，引号）都必须是***英文***哦    
-![show your code](pic/p-1-6.png) 
+<div align="center">
+<img src="pic/p-1-6.png" width="430" height="165" />
+</div> 
 
 ## 更进一步
 我们再来给代码加点好玩的，让程序代码询问电脑前的用户姓名，然后把名字打印出来    
@@ -52,11 +58,15 @@ input是Python语言的输入函数，当你想让使用你程序的人告诉计
 Name在这里叫做“变量”，变量是一个保存数据的地方，当我们需要在程序里保存数据时，我们就需要定义一个变量，比如这里用户输入的名字，我们后面还要将这个名字打印出来，必须先把这个名字找个地方存上，等到print时直接到name中把名字取出来就好了。    
 中间的等号=，是个赋值运算符，表示把右边得到的值赋给左边的变量     
 在给变量命名时，要给他取个有意义的名字，让别人一看就知道它存的是什么数据。Python规定变量名要使用英文字母、数字和下划线来命名，但是不能以数字开头，也不能使用Python关键字作为变量名    
-![correct & not](pic/p-1-11.png)  
-
-点击运行，保存后，Shell窗口又被激活，在光标后面输入你的名字     
-![input name](pic/p-1-8.png)    
-![print name](pic/p-1-9.png) 
+<div align="center">
+<img src="pic/p-1-11.png" width="309" height="220" />
+</div>
+点击运行，保存后，Shell窗口又被激活，在光标后面输入你的名字 
+<div align="center">
+<img src="pic/p-1-8.png" width="328" height="135" />
+<br />
+<img src="pic/p-1-9.png" width="351" height="151" />
+</div>    
 
 ## 小结
 
