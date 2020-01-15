@@ -39,7 +39,9 @@ print是Python语言的输出函数，在编辑器里函数用紫色显示，hel
 name = input("请问你叫什么名字？")
 print('hello,',name)
 ```
-![input your name](pic/p-1-10.png) 
+<div align="center">
+<img src="pic/p-0-10.png" width="400" height="100" />
+</div>
 
 这里红色的那一行叫做“注释”，注释以井号（#）开头，它是程序的提示，是告诉看代码的人这段代码的作用，不是给计算机看的，所以计算机运行时会忽略它。    
 input是Python语言的输入函数，当你想让使用你程序的人告诉计算机一些信息时，需要使用input语句。    
