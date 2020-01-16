@@ -13,11 +13,12 @@ Hi,大家好，我是葫芦妈妈。上节课我们学习了画简单的几何�
 <tr>
 <td>第一步，画图准备：</td>
 <td>
-<code>
-# 准备工作：导入turtle模块，初始化画笔    </br>
-import turtle      </br>
-t = turtle.Turtle( )      </br>
-</code>
+<img src="pic/p-3-5.png" width="222" height="140" />
 </td>
 </tr>
 </table>
+
+如何画一个五角星呢？我们观察可以发现，五角星是由5个等腰三角形围在一起组成的，只要从其中的一个点开始，沿着每个三角形的外围依次描边，就能将五角星的轮廓勾勒出来。   
+<div align="center">
+<img src="pic/star.gif" width="233" height="228" />
+</div>
