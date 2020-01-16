@@ -13,11 +13,11 @@ Hi,大家好，我是葫芦妈妈。上节课我们学习了画简单的几何�
 <tr>
 <td>第一步，画图准备：</td>
 <td>
-```Python
+<code>
 # 准备工作：导入turtle模块，初始化画笔
 import turtle
 t = turtle.Turtle( ) 
-```
+</code>
 </td>
 </tr>
 </table>
