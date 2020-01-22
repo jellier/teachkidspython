@@ -25,13 +25,17 @@
 > 图文详解：[ hello,world  ](lesson1.md)  
 > 代码：[ hello,world - 代码 ](helloworld.py) 
 
-### 第2课：Python会画画-上
+### 第2课：Python会画画-1
 > 图文详解：[初识海龟画图](lesson2.md)  
 > 代码：[画简单的几何图形 - 代码](turtle_draw.py) 
 
-### 第3课：Python会画画-中
-> 图文详解：[加点色彩](lesson3.md)  
-> 代码：[画棵圣诞树 - 代码](turtle_tree.py)
+### 第3课：Python会画画-2
+> 图文详解：[加点色彩，认识循环结构](lesson3.md)  
+> 代码：[画个五角星 - 代码](turtle_star.py)
+
+### 第4课：Python会画画-3
+> 图文详解：[换个画法，认识条件判断](lesson4.md)  
+> 代码：[画个圣诞树 - 代码](turtle_chrismas.py)
 
 
 
