@@ -11,11 +11,11 @@ ji1 = int(mList[0]) * int(nList[1])
 ji2 = int(nList[0]) * int(mList[1])
 # step3.判断大小
 if ji1 > ji2:
-    print(m, ' > ', n)
+    print(m + ' > ' + n)
 elif ji1 < ji2:
-    print(m, ' < ', n)
+    print(m + ' < ' + n)
 else:
-    print(m, ' = ', n)
+    print(m + ' = ' + n)
 
 
 
