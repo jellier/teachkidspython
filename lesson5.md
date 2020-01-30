@@ -12,7 +12,7 @@ Hi,大家好，我是葫芦妈妈！又到了和葫芦妈妈一起学编程的�
 当分母相同时，比分子，分子大的分数大，分子小的分数小；   
 当分子相同时，比分母，分母小的分数大，分母大的分数小    
 <div align="center">
-<img src="pic/p-5-1.png" width="527" height="167" />
+<img src="pic/p-5-1.png" width="790" height="251" />
 </div>
 
 ### 2、分子分母都不同--通分
@@ -74,7 +74,7 @@ print(nList)
 
 ```
 <div align="center">
-<img src="pic/p-5-7.png" width="677" height="158" />
+<img src="pic/p-5-7.png" width="339" height="78" />
 </div>
 
 #### 2.2 列表
