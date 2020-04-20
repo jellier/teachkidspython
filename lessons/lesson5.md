@@ -12,7 +12,7 @@ Hi,大家好，我是葫芦妈妈！又到了和葫芦妈妈一起学编程的�
 当分母相同时，比分子，分子大的分数大，分子小的分数小；   
 当分子相同时，比分母，分母小的分数大，分母大的分数小    
 <div align="center">
-<img src="pic/p-5-1.png" width="790" height="251" />
+<img src="../pic/p-5-1.png" width="790" height="251" />
 </div>
 
 ### 2、分子分母都不同--通分
@@ -20,7 +20,7 @@ Hi,大家好，我是葫芦妈妈！又到了和葫芦妈妈一起学编程的�
 分子分母都不相同的时候，只需要利用通分，把分子或者分母变相同，然后再利用前面的原则比较即可。   
 至于是通分母还是通分子，根据情况灵活选择，例如下面这个例子    
 <div align="center">
-<img src="pic/p-5-2.png" width="454" height="154" />
+<img src="../pic/p-5-2.png" width="454" height="154" />
 </div>
 
 ### 3、分子分母都不同--交叉相乘
@@ -29,7 +29,7 @@ Hi,大家好，我是葫芦妈妈！又到了和葫芦妈妈一起学编程的�
 来观察下通分母的例子，通分后分子的40和27是怎么来的呢？    
 5*8=40，3*9=27，5和3是原分数的分子，9和8是另一个分数的分母，只要用原分数的分子乘另一个分数的分母，再比较两个乘积的大小，即可比较出原分数的大小，这个方法就是交叉相乘
 <div align="center">
-<img src="pic/p-5-3.png" width="404" height="159" />
+<img src="../pic/p-5-3.png" width="404" height="159" />
 </div>
 
 ## 二、分数比大小的编程实现
@@ -46,7 +46,7 @@ n = input('请按照"分子/分母"的格式，输入第二个分数：')
 另外，如果input后面使用了单引号，那“分子/分母”外面的引号要用双引号，反之也一样。     
 然后运行一下试试，根据提示，我们输入两个分数：    
 <div align="center">
-<img src="pic/p-5-5.png" width="415" height="106" />
+<img src="../pic/p-5-5.png" width="415" height="106" />
 </div>
 
 ### step2、获得分子分母，交叉相乘
@@ -55,7 +55,7 @@ n = input('请按照"分子/分母"的格式，输入第二个分数：')
 现在我们就得到了两个代表分数的字符串，为了后面的计算，我们需要将分数的分子和分母从字符串中拆开，这里老师要教你们一个新的语句——split()。     
 split()语句可以通过指定的分隔符将字符串分开，生成一个字符串列表。比如字符串’A#B#C#D’使用split(‘#’)语句，就可以得到一个字符串组成的列表[‘A’,’B’,’C’,’D’]     
 <div align="center">
-<img src="pic/p-5-6.png" width="697" height="239" />
+<img src="../pic/p-5-6.png" width="697" height="239" />
 </div>
 
 我们输入分数的时候分子分母是用“/”分隔的，所以我们只要把split(‘/’)，加到代表分数的字符串变量后面，就可以得到包含此分数分子和分母的列表了，就像这样：
@@ -74,14 +74,14 @@ print(nList)
 
 ```
 <div align="center">
-<img src="pic/p-5-7.png" width="339" height="78" />
+<img src="../pic/p-5-7.png" width="339" height="78" />
 </div>
 
 #### 2.2 列表
 刚才我们说split语句将字符串分割后，会返回一个列表，那小朋友们知道什么是列表吗？   
 在我们刚才的例子中以及返回结果里，像这样用方括号括起来、并且每一项之间用逗号隔开的数据类型就是列表：    
 <div align="center">
-<img src="pic/p-5-8.png" width="278" height="149" />
+<img src="../pic/p-5-8.png" width="278" height="149" />
 </div>
 
 列表很有用，它可以把一堆相关的数据存在一起，这样我们就可以一次对整个集合做某些处理，也能更容易的记录一组东西，在编程中列表是非常常用的数据类型。      
@@ -89,17 +89,17 @@ print(nList)
 另外，列表中的每个元素都会分配一个数字来标记它的位置，叫做索引，从0 开始，第一个元素索引是0，第二个元素索引是1….以此类推。   
 比如列表mList=[‘9 ’, ‘77’]中第一个元素‘9’要用mList[0]来表示，第二个元素’77’要用mList[1]来表示    
 <div align="center">
-<img src="pic/p-5-9.png" width="237" height="88" />
+<img src="../pic/p-5-9.png" width="237" height="88" />
 </div> 
 
 前面我们已经把两个分数转换成了两个列表，所以我们就可以用列表名加索引的方式来引用列表中的数据了    
 <div align="center">
-<img src="pic/p-5-10.png" width="436" height="142" />
+<img src="../pic/p-5-10.png" width="436" height="142" />
 </div>
 得到了两个分数的分子分母，接下来交叉相乘。    
 在交叉相乘中，要注意，左右位置不能弄反，记住口诀：分母随着分子动。       
 <div align="center">
-<img src="pic/p-5-11.png" width="683" height="142" />
+<img src="../pic/p-5-11.png" width="683" height="142" />
 </div>
 
 所以这里要用mList[0]*nList[1]得到第一个乘积，用nList[0]*mList[1]得到第二个乘积。     
@@ -118,7 +118,7 @@ print(j2)
 报错了，是不是？你们知道这里为什么会报错嘛？    
 编辑器在运行前会对程序做一些检查。当它发现一个错误，就会用红色的字体标记出来，并且告诉你出错的位置和原因     
 <div align="center">
-<img src="pic/p-5-12.png" width="674" height="84" />
+<img src="../pic/p-5-12.png" width="674" height="84" />
 </div>
 
 看到错误消息也不用担心，它们只是为了帮你找出哪里出了问题。比如这个错误就是告诉你不能使用字符串类型的数据相乘。    
@@ -136,7 +136,7 @@ print(j1)
 print(j2)
 ```
 <div align="center">
-<img src="pic/p-5-13.png" width="312" height="87" />
+<img src="../pic/p-5-13.png" width="312" height="87" />
 </div>
 
 #### 2.3 判断大小， if … elif … else 结构
@@ -146,26 +146,26 @@ print(j2)
 - 否则，只剩下 乘积 ji1 等于 乘积ji2的情况了，则m =n；
 
 <div align="center">
-<img src="pic/p-5-14.png" width="670" height="127" />
+<img src="../pic/p-5-14.png" width="670" height="127" />
 </div>
 
 在程序设计中，程序常常需要对给定的条件做出选择，前面的课程中，我们学习过Python中最简单的一种选择结构——单分支选择结构。     
 比如：如果乘积 ji1 大于 乘积ji2，则m > n  
 <div align="center">
-<img src="pic/p-5-15.png" width="432" height="228" />
+<img src="../pic/p-5-15.png" width="432" height="228" />
 </div>
 
 但我们还需要一种机制，当条件成立的话做什么，当条件不成立又做什么，我们需要一个“否则的话，怎么怎么样”，这个机制叫else。    
 比如：如果乘积 ji1 大于 乘积ji2，则m > n；否则， m < n
 <div align="center">
-<img src="pic/p-5-16.png" width="432" height="188" />
+<img src="../pic/p-5-16.png" width="432" height="188" />
 </div>
 
 但这段程序中，我们要判断的不止这些，两个乘积除了大于和小于的情况，还有相等的情况，这又要怎样表达呢？     
 Python为我们提供了if … elif … else语句实现多分支选择结构。在我们这个示例中可以这样表达：    
 将 ji1 > ji2 和 ji1 < ji2两种情况作为判断条件，分别放到if 和 elif后面进行判断，得到m 大于或者小于 n 的情况，剩余的其他情况就是m等于n了    
 <div align="center">
-<img src="pic/p-5-17.png" width="432" height="216" />
+<img src="../pic/p-5-17.png" width="432" height="216" />
 </div>
 
 如果还有更多的条件需要判断，只需要加入多个elif的判断即可。    

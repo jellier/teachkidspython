@@ -24,12 +24,12 @@ t.left( 90 )
 运行一下吧，现在屏幕上就得到了一条直线和一个头朝上的小箭头。    
 
 <div align="center">
-<img src="pic/p-2-1.png" width="136" height="40" />
+<img src="../pic/p-2-1.png" width="136" height="40" />
 </div>
 
 程序执行时，会弹出turtle的绘图窗口，执行完成后这个窗口自动关闭
 <div align="center">
-<img src="pic/p-2-2.png" width="452" height="112" />
+<img src="../pic/p-2-2.png" width="452" height="112" />
 </div>
 
 为了便于观察，我们需要这个窗口一直保留，所以需要在代码最下面加上一句turtle.done()
@@ -43,7 +43,7 @@ turtle.done()
 
 如果我们让画笔按照 向前100像素然后左转90度 这个方式走4次就可以得到一个正方形，就像是围绕一栋建筑连续4次左转的话，将会带我们绕建筑转一圈，并回到起点一样。
 <div align="center">
-<img src="pic/p-2-3.png" width="341" height="171" />
+<img src="../pic/p-2-3.png" width="341" height="171" />
 </div>
 
 
@@ -51,9 +51,9 @@ turtle.done()
 
 当然，你还可以画出更多的图形，比如三角形、点、圆、正多边形等：
 <div align="center">
-<img src="pic/p-2-4.png" width="622" height="130" />
-<img src="pic/p-2-5.png" width="671" height="146" />
-<img src="pic/p-2-6.png" width="669" height="123" />
+<img src="../pic/p-2-4.png" width="622" height="130" />
+<img src="../pic/p-2-5.png" width="671" height="146" />
+<img src="../pic/p-2-6.png" width="669" height="123" />
 </div>
 
 

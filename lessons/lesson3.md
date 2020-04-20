@@ -4,7 +4,7 @@ Hi,大家好，我是葫芦妈妈。上节课我们学习了画简单的几何�
 
 这节课我们要进一步学习turtle的绘图功能，画一个金灿灿的五角星，就像这样       
 <div align="center">
-<img src="pic/p-3-1.png" width="202" height="196" />
+<img src="../pic/p-3-1.png" width="202" height="196" />
 </div>
 
 ## 第一步 画图准备
@@ -14,14 +14,14 @@ Hi,大家好，我是葫芦妈妈。上节课我们学习了画简单的几何�
 <tr>
 <td>第一步，画图准备：</td>
 <td width="444px">
-<img src="pic/p-3-5.png" width="222" height="140" />
+<img src="../pic/p-3-5.png" width="222" height="140" />
 </td>
 </tr>
 </table>
 
 如何画一个五角星呢？我们观察可以发现，五角星是由5个等腰三角形围在一起组成的，只要从其中的一个点开始，沿着每个三角形的外围依次描边，就能将五角星的轮廓勾勒出来。   
 <div align="center">
-<img src="pic/star.gif" width="233" height="228" />
+<img src="../pic/star.gif" width="233" height="228" />
 </div>
 
 先来画第一个角——利用上节课学的前进(fd),左转(left),右转(right)命令，让画笔从1号点开始向前移动到2号点，然后画笔向右转向3号点的方向，继续移动到3号点后，再左转转向4号点的方向，每次转弯的角度需要计算一下：
@@ -32,7 +32,7 @@ Hi,大家好，我是葫芦妈妈。上节课我们学习了画简单的几何�
             <p>2、由2、7、9这三个角组成的等腰三角形中，9对应的角是108度，所以2和6对应的角为36度</p>
         </td>
         <td width="444px">
-            <img src="pic/p-3-2.png" width="242" height="236" />
+            <img src="../pic/p-3-2.png" width="242" height="236" />
         </td>
     </tr>
     <tr>
@@ -40,7 +40,7 @@ Hi,大家好，我是葫芦妈妈。上节课我们学习了画简单的几何�
             <p>3、当画笔从1移动到2的时候，它是水平移动的，也就是画笔是面向屏幕右侧的，它需要向右转144度，才能继续向3的方向移动</p>
         </td>
         <td width="444px">
-            <img src="pic/p-3-3.png" width="289" height="236" />
+            <img src="../pic/p-3-3.png" width="289" height="236" />
         </td>
     </tr>
     <tr>
@@ -48,7 +48,7 @@ Hi,大家好，我是葫芦妈妈。上节课我们学习了画简单的几何�
             <p>4、画笔移动到3后，五角星的第一个角就画好了，但还需要左转72度面向4的方向，准备下一个角的描画</p>
         </td>
         <td width="444px">
-            <img src="pic/p-3-4.png" width="242" height="236" />
+            <img src="../pic/p-3-4.png" width="242" height="236" />
         </td>
     </tr>
 </table>
@@ -63,10 +63,10 @@ Hi,大家好，我是葫芦妈妈。上节课我们学习了画简单的几何�
     <tr>
         <td>第二步，用循环画五角星</td>
         <td>
-            <img src="pic/p-3-6.png" width="353" height="142" />
+            <img src="../pic/p-3-6.png" width="353" height="142" />
         </td>
         <td>
-            <img src="pic/p-3-7.png" width="150" height="130" />
+            <img src="../pic/p-3-7.png" width="150" height="130" />
         </td>
     </tr>
 </table>
@@ -84,7 +84,7 @@ Hi,大家好，我是葫芦妈妈。上节课我们学习了画简单的几何�
     <tr>
         <td>第三步，填充颜色</td>
         <td>
-            <img src="pic/p-3-8.png" width="413" height="235" />
+            <img src="../pic/p-3-8.png" width="413" height="235" />
         </td>      
     </tr>
 </table>
@@ -95,7 +95,7 @@ Hi,大家好，我是葫芦妈妈。上节课我们学习了画简单的几何�
     <tr>
         <td>第四步，隐藏掉画笔</td>
         <td>
-            <img src="pic/p-3-9.png" width="400" height="175" />
+            <img src="../pic/p-3-9.png" width="400" height="175" />
         </td>      
     </tr>
 </table>

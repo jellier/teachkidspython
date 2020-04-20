@@ -11,26 +11,26 @@ Hi,大家好，我是葫芦妈妈。今天我们就要正式开始学习Python�
 在Python的中向屏幕输出这句话要用print(‘hello,world')，print在英文中是打印的意思，也就是告诉计算机请打印出hello,world这几个字。我们一起来试一下，注意这里输入的时候一定要将输入法切换到英文输入状态哦   
 
 <div align="center">
-<img src="pic/p-1-1.png" width="325" height="60" />
+<img src="../pic/p-1-1.png" width="325" height="60" />
 </div> 
 
 print是Python语言的输出函数，在编辑器里函数用紫色显示，hello world是一串字符串，在编辑器里字符串默认用绿色显示。
 
 接着，点击编辑器窗口上方的菜单Run—>Run Module   
 <div align="center">
-<img src="pic/p-1-2.png" width="210" height="108" />
+<img src="../pic/p-1-2.png" width="210" height="108" />
 </div> 
 这时会弹出一个对话框，提示你要先保存程序代码  
 
 <div align="center">
-<img src="pic/p-1-3.png" width="478" height="184" />
+<img src="../pic/p-1-3.png" width="478" height="184" />
 <br/>
-<img src="pic/p-1-4.png" width="290" height="162" />
+<img src="../pic/p-1-4.png" width="290" height="162" />
 </div> 
     
 点击“确定”或者“OK”按钮，在弹出的对话框中输入文件名hello.py，选个保存的目录（这里我选的是桌面，你可以请爸爸妈妈帮忙建个你专属的文件夹）。保存后Python Shell窗口就会被激活，你的第一行代码将被执行，执行结果显示在<<< 提示符后面   
 <div align="center">
-<img src="pic/p-1-5.png" width="390" height="120" />
+<img src="../pic/p-1-5.png" width="390" height="120" />
 </div> 
 好了，你已经编写完第一个Python程序了。
 
@@ -38,7 +38,7 @@ print是Python语言的输出函数，在编辑器里函数用紫色显示，hel
 比如我把 hello, wold改成 hello, 葫芦，print(“hello,葫芦”)    
 这里“葫芦”是中文，输入的时候要注意中英文切换，在Python中只有***引号里面的字符串和注释中可以有中文字符***，其他不管是关键字还是字符（比如括号，引号）都必须是***英文***哦    
 <div align="center">
-<img src="pic/p-1-6.png" width="430" height="165" />
+<img src="../pic/p-1-6.png" width="430" height="165" />
 </div> 
 
 ## 更进一步
@@ -50,7 +50,7 @@ name = input("请问你叫什么名字？")
 print('hello,',name)
 ```
 <div align="center">
-<img src="pic/p-1-10.png" width="400" height="100" />
+<img src="../pic/p-1-10.png" width="400" height="100" />
 </div>
 
 这里红色的那一行叫做“注释”，注释以井号（#）开头，它是程序的提示，是告诉看代码的人这段代码的作用，不是给计算机看的，所以计算机运行时会忽略它。    
@@ -59,13 +59,13 @@ Name在这里叫做“变量”，变量是一个保存数据的地方，当我�
 中间的等号=，是个赋值运算符，表示把右边得到的值赋给左边的变量     
 在给变量命名时，要给他取个有意义的名字，让别人一看就知道它存的是什么数据。Python规定变量名要使用英文字母、数字和下划线来命名，但是不能以数字开头，也不能使用Python关键字作为变量名    
 <div align="center">
-<img src="pic/p-1-11.png" width="309" height="220" />
+<img src="../pic/p-1-11.png" width="309" height="220" />
 </div>
 点击运行，保存后，Shell窗口又被激活，在光标后面输入你的名字 
 <div align="center">
-<img src="pic/p-1-8.png" width="328" height="135" />
+<img src="../pic/p-1-8.png" width="328" height="135" />
 <br />
-<img src="pic/p-1-9.png" width="351" height="151" />
+<img src="../pic/p-1-9.png" width="351" height="151" />
 </div>    
 
 ## 小结

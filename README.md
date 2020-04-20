@@ -3,48 +3,48 @@
 ## 课程列表
 
 ### 第0课：写在开课前
-> 图文详解：[请安装开发和运行环境](lesson0.md)  
+> 图文详解：[请安装开发和运行环境](lessons/lesson0.md)  
 
 ### 第1课：从Hello,world开始
-> 图文详解：[ hello,world  ](lesson1.md)  
+> 图文详解：[ hello,world  ](lessons/lesson1.md)  
 > 代码：[ hello,world - 代码 ](helloworld.py) 
 
 ### 第2课：Python会画画-1
-> 图文详解：[初识海龟画图](lesson2.md)  
-> 代码：[画简单的几何图形 - 代码](turtle_draw.py) 
+> 图文详解：[初识海龟画图](lessons/lesson2.md)  
+> 代码：[画简单的几何图形 - 代码](turtle/turtle_draw.py) 
 
 ### 第3课：Python会画画-2
-> 图文详解：[加点色彩 - 认识循环结构](lesson3.md)  
-> 代码：[画个五角星 - 代码](turtle_star.py)
+> 图文详解：[加点色彩 - 认识循环结构](lessons/lesson3.md)  
+> 代码：[画个五角星 - 代码](turtle/turtle_star.py)
 
 ### 第4课：Python会画画-3
-> 图文详解：[换个画法 - 认识条件判断（单分支选择结构）](lesson4.md)  
-> 代码：[画个圣诞树 - 代码](turtle_chrismas.py)
+> 图文详解：[换个画法 - 认识条件判断（单分支选择结构）](lessons/lesson4.md)  
+> 代码：[画个圣诞树 - 代码](turtle/turtle_chrismas.py)
 
 ### 第5课：和Python学数学-1
-> 图文详解：[分数比大小--初识列表，复杂的条件判断（多分支选择结构）](lesson5.md)  
-> 代码：[用交叉相乘比较两个分数的大小 - 代码](fenshu.py)
+> 图文详解：[分数比大小--初识列表，复杂的条件判断（多分支选择结构）](lessons/lesson5.md)  
+> 代码：[用交叉相乘比较两个分数的大小 - 代码](maths/fenshu.py)
 
 ### 第6课：和Python学数学-2
-> 图文详解：[九九乘法表--嵌套循环 ](lesson6.md)  
-> 代码：[九九乘法表 - 代码](multiTables.py)
+> 图文详解：[九九乘法表--嵌套循环 ](lessons/lesson6.md)  
+> 代码：[九九乘法表 - 代码](maths/multiTables.py)
 
-## 教学目标：
+## 寒假课程教学目标：
 > 面向0基础的孩子，初步认识真正的编程语言
 
 > 分析问题 --> 解决问题 --> 讨论及分享
 
 > 独立实现一段可执行代码
 
-## 教学任务
 
-> 入门：认识编程的基本概念
+## 教学体系
+> 入门：认识编程的基本概念---寒假课程对标这个level
 >> 初步认识 
 >> 通过 turtle 认识变量、循环、条件等
 
 > 进阶：用编程思维解决数学问题
 >> 深入理解，解决实际问题
->> 结合学科内容，掌握随机数，函数，对象
+>> 结合学科内容，巩固编程基础知识，并在此基础上掌握随机数，函数，对象等高级用法
 
 > 提高：编写简单的爬虫程序等 
 >> 高级玩法，第三方模块，如：pygame, pillow，numpy等
